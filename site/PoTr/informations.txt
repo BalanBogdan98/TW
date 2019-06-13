@@ -1,0 +1,4 @@
+<br>You can add your poem by clicking Add poem .<br><br>
+You can view the poem in other language by clicking View .<br><br>
+You can add your translation by clicking Add translation .<br><br>
+LOGIN TO USE THE SITE !<br><br>

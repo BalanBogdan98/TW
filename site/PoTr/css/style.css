@@ -1,0 +1,715 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:21px;
+	color:#9FB1B2;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#212b2d;
+	width:100%
+}
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	padding:0px 0 10px 0;
+	border:#6C8286 solid 3px;
+}
+
+#header {
+	padding:0px 0px 20px;
+}
+
+#header .top_banner{
+	background:url(../images/header.jpg) no-repeat left top;
+	height:190px;
+	padding:60px 95px 0 95px;
+	border-bottom:#6C8286 solid 3px;
+	margin-bottom:10px;
+}
+
+#header h1{
+	font-size:32px;
+	color:White;
+	margin:0px;
+	padding:0px 0px 10px;
+}
+
+#header p{
+	font-size:16px;
+	margin-left:1px;
+	color:#c3dae0;
+}
+
+.navigation{
+	margin-bottom:5px;
+	padding:13px 5px;
+	background: #333d3f;
+	text-align: center;
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 35px;
+	display:inline;
+	font-size:14px;
+	list-style-type:none;
+	border-right:#91969a dotted 1px; 
+}
+
+.navigation ul li a{
+	color:#F5F5F5;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+#page_content{
+	padding:0px 0px 20px;
+}
+
+#page_content .right_section{
+	width:100%;
+}
+
+#page_content .right_section .top_content{
+	padding:15px 0 0px 0;
+	text-align: center;
+	width:100%;
+}
+
+#page_content .right_section .top_content .column_one{
+	width:45%;
+	float:left;
+	margin-bottom:20px;
+	border-right:#91969a dotted 1px;
+}
+
+#page_content .right_section .top_content .column_two{
+	width:30%;
+	float:right;
+	margin-bottom:20px;
+}
+
+a.btn{
+	color:#0a0800;
+	font-size:12px;
+	text-decoration:none;
+	padding:6px 13px 6px 13px;
+	font-weight:bold;
+	display:inline-block;
+	border:#566568 solid 1px;
+	background-color:#97aaae;
+}
+
+a.btn:hover{
+	text-decoration:none;
+	background-color: white;
+}
+
+.common_content{
+	padding:0 0 20px 0;
+	text-align: center;
+}
+
+.left_side_bar{
+	width:210px;
+	float:left;
+}
+
+.left_side_bar h1{
+	font-size:20px;
+	padding:0 0 0 25px;
+	font-weight:bold;
+	margin-bottom:15px;
+	color:#9aacae;
+}
+
+.left_side_bar .col_1{
+	padding:0px 0 20px 0;
+}
+
+.left_side_bar .col_1 .box{
+	padding:10px 15px 5px;
+	border:#6e7678 solid 2px;
+}
+
+.left_side_bar .col_1 .box ul{
+	margin:0px;
+	padding:0px;
+}
+
+.left_side_bar .col_1 .box ul li{
+	margin:0px 0px 8px;
+	padding:0px 0px 0px 15px;
+	font-size:13px;
+	list-style-type:none;
+	background:url(../images/li.png) no-repeat left center;
+}
+
+.left_side_bar .col_1 .box ul li a{
+	color:#9aacae;
+	text-decoration:none;
+}
+
+.left_side_bar .col_1 .box ul li a:hover{
+	color:#9aacae;
+	text-decoration:underline;
+}
+
+#footer{
+	clear:both;
+	margin-top:18px;
+	padding:15px 0 0px 0;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:19px;
+	border-top:#525b60 solid 1px;
+}
+
+.login{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	margin-top:160px;
+	text-align: center;
+	align-content: center;
+	width:70%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px; 
+}
+
+.login label{
+	font-size: 20px;
+}
+
+.login h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.login label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.login label{
+    font-weight: bold;
+}
+
+.login input{
+    border-radius: 10px;
+}
+
+.login button{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+.login button:hover{
+    background: white;
+}
+
+.addPoem{
+	margin-top:150px;
+}
+.addPoem h1{
+	text-align: center;
+	margin-bottom:0px;
+}
+.add{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	text-align: center;
+	align-content: center;
+	width:20%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.add label{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.add button{
+   width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.add button:hover{
+    background: white;
+}
+
+.add textarea{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+.add p{
+	font-size: 15px;
+}
+.add select{
+	width: 100%;
+	margin-bottom:10px;
+}
+
+
+
+.conn{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	text-align: center;
+	align-content: center;
+	width:70%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px;  
+}
+
+.conn h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.conn label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.conn label{
+	font-weight: bold;
+	font-size:15px;
+}
+
+.conn input{
+    border-radius: 10px;
+}
+
+.conn button{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size:15px;
+}
+
+.conn button:hover{
+    background: white;
+}
+
+.connp{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	text-align: center;
+	align-content: center;
+	width:70%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px;  
+}
+
+.connp h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.connp label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.connp label{
+	font-weight: bold;
+	font-size: 16px; 
+}
+
+.connp input{
+    border-radius: 10px;
+}
+
+.connp button{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.connp button:hover{
+    background: white;
+}
+
+.translator h1{
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.translator .imagine{
+	float :left;
+	margin-left:20px;
+	margin-bottom:40px;
+}
+
+.translator .lista{
+	float :left;
+	width:400px;
+}
+
+.poet h1{
+	text-align: center;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.poet .imagine{
+	float :left;
+	margin-left:20px;
+	margin-bottom:40px;
+}
+
+.poet .lista{
+	float :left;
+	width:400px;
+}
+
+.Confirm h1{
+	text-align: center;
+	margin-top: 290px;
+	margin-bottom: 0px;
+}
+
+.Confirm h2{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 200px;
+}
+
+.Confirm a{
+    color: white;
+}
+
+.Confirm a:hover{
+	text-decoration:none;
+	color: red;
+}
+
+.bestpoem {
+	text-align: center;
+}
+
+.addt{
+	margin-top:150px;
+	margin-bottom: 0px;
+}
+.addt h1{
+	text-align: center;
+	margin-bottom:0px;
+}
+
+.addtrad{
+	color:white;
+	background-color:gray ;
+	align-content: center; 
+	padding: 4em;
+	padding-bottom: 2.5em;
+	text-align: center;
+	align-content: center; 
+	width:70%;
+	margin:0 auto;
+	margin-top:100px;
+	margin-bottom:100px; 
+}
+
+.addtrad h1{
+	text-align: center;
+	color:white;
+	padding-bottom: 40px;
+}
+
+.addtrad label, input{
+	display: block;
+	align-content: center;
+	width:100%;
+}
+
+.addtrad label{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.addtrad input{
+	border-radius: 10px;
+	margin-bottom: 0px;
+}
+
+.addtrad button{
+    width: 100%;
+    background:#9aacae;
+    color: black;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+	cursor: pointer;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.addtrad button:hover{
+    background: white;
+}
+
+.addtrad textarea{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+.addtrad p{
+	margin-bottom:0px;
+	margin:0px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.addtrad select{
+	width: 100%;
+	margin-top:0px;
+}
+.addtrad .nimic input{
+	margin-bottom:0px;
+}
+
+.exp h1{
+	margin-top: 100px
+}
+.exp 
+{
+	text-align: center;
+	
+}
+
+.Poems {
+  background-color: white;
+  width: 450px;
+  padding: 25px;
+  margin: 25px auto;
+  text-align:Left;
+  border-radius:25px;
+  font-weight: bold;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.anunt h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.anunt a{
+    color:white;
+}
+
+.anunt a:hover{
+    color:red;
+}
+
+.anunt2 a{
+    color:red;
+}
+
+.anunt2 a:hover{
+    color:red;
+}
+
+.Titlu_php{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.Poems{
+    color:#212b2d;
+    width:25%
+}
+
+.Poem_php{
+    font-style: italic;
+}
+
+.add_comment{
+    width:100%;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 15px;
+    
+}
+
+.Poems .add_comment label{
+    font-size: 15px;
+}
+
+.Poems .add_comment .Explicatie label{
+    font-size:12px;
+}
+
+.Poems textarea{
+    width:100%;
+}
+
+.Explicatie{
+    font-size:11px;
+}
+
+.Poems button{
+        color:#c3dae0;
+	font-size:12px;
+	text-decoration:none;
+	padding:6px 13px 6px 13px;
+	font-weight:bold;
+	display:inline-block;
+	border:#566568 solid 1px;
+	background-color:#212b2d;
+        border-radius: 10px;
+        margin-right:5px;
+        margin-top:5px;
+        
+}
+
+.Poems label{
+    font-size: 13px;
+}
+
+.Poems select{
+    
+}
+.Poems button:hover{
+	text-decoration:none;
+	background-color: white;
+        color:#212b2d;
+}
+
+.Poems .preluare label{
+    font-size: 15px;
+}
+
+.Poems .sectiune_comentarii{
+    height:170px;
+    width:90%;
+    border:3px solid #ccc;
+    font-size:13px;
+    overflow:auto;
+    padding-left : 20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+}
+
+.Poems .sectiune_comentarii .stil_comentarii{
+    
+  background-color:#212b2d;
+  color:#c3dae0;
+  padding: 10px;
+  width: 70%;
+  text-align:Left;
+  border-radius:25px;
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+ 
+
+@media only screen and (max-width: 500px){
+
+	.navigation ul li{
+		display:block;
+		border: none;
+	}
+	#page_content .right_section{
+		display:none;
+	}
+	.left_side_bar{
+		float:none;
+		margin:0 auto;
+	}
+
+	#page_content{
+		padding:none;
+		margin:none;
+	}
+        
+        .add{
+            width:70%;
+            
+        }
+        
+        .Poems{
+            width:70%;
+        }
+        
+
+        
+}
+
+@media only screen and (max-width: 770px){
+	#page_content .right_section .top_content .column_one{
+		width:100%;
+		float:none;
+		margin-bottom:20px;
+	}
+	
+	#page_content .right_section .top_content .column_two{
+		display:none;
+	}
+}
+
+
